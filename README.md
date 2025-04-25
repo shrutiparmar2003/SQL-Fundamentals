@@ -2,7 +2,7 @@
 
 This repository contains my personal practice and exploration of SQL concepts. The goal is to strengthen my SQL skills by applying various SQL commands and techniques to real-world scenarios, and ultimately enhance my ability to solve data-related problems effectively.
 
-## 🛠️ Project Overview
+## Project Overview
 
 Through this project, I've worked on mastering core SQL concepts and practices such as:
 
