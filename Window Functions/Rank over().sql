@@ -10,3 +10,7 @@ from student;
 select student_id, name, score, subject,
 rank() over(partition by  subject order by score desc) as rank_of_student  -- Parttion by is used when you want to partition ranks based on something. Fo example i may need ranks subject wise..so in that case i will partion by subject and order by scores in descending order
 from student;
+
+select name, gender, score,
+rank() over(partition by gender order by score desc) as rank_for_male_and_female_separately
+from student;
