@@ -10,3 +10,9 @@ select student_id,name,score,
 lag(score,2) over(order by score desc) as previous_score
 from student;
 -- means look 2 rows behind
+
+SELECT name, score,
+LAG(score) OVER (ORDER BY score DESC) AS prev_score,
+score - LAG(score) OVER (ORDER BY score DESC) AS diff
+FROM student;
+-- Tells how much the score has changed compared to the student just above in ranking.
