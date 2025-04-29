@@ -2,6 +2,7 @@
 -- Is a window function that is used to look to forward to the next row. It helps in identifying the next value in the row without needing to write complex queries.
 -- It can be used when salary of employees need to be compared, or marks of students needs to be observed if they are increasing or decresing or to check whether the stock price has risen or fallen compared to prevoius day and so on.
 -- Using order by in lead is a must otherwise the function will not know how to ove forward
+-- You can also use partition by to specify conditions inside the over() keyword.
 
 use school;
 select name,score,
