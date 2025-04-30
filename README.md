@@ -4,7 +4,7 @@ This repository contains my personal practice and exploration of SQL concepts. T
 
 ## Project Overview
 
-Through this project, I've worked on mastering core SQL concepts and practices such as:
+Through these concepts, I've worked on mastering core SQL concepts and practices such as:
 
 - **Database and Table Management**: Creating, altering, and managing databases and tables.
 - **Data Manipulation**: Performing operations like inserting, updating, and deleting data.
